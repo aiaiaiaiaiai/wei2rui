@@ -1,23 +1,23 @@
 {
   "name": "Heroku-v2ray",
-  "description": "将v2ray部署在Heroku上",
+  "description": "this is a test project, do not delete please",
   "keywords": [
     "v2ray VMess VLESS"
   ],
   "env": {
     "PROTOCOL": {
-      "description": "协议VMess或VLESS，请填小写的vmess或vless",
+      "description": "",
       "value": "vmess",
       "required": true
     },
     "UUID": {
-      "description": "用户的主ID",
-      "value": "",
+      "description": "",
+      "value": "030ec718-3259-4bb3-9bd5-e47d8a47bc06",
       "required": false
     },
     "WS_PATH": {
-      "description": "websocket路径",
-      "value": "/ray",
+      "description": "",
+      "value": "/baidu",
       "required": true
     }
   },
